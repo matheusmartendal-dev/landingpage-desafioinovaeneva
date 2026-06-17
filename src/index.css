@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-eneva-lime: #cb4f33;
+  --color-eneva-teal-deep: #0a585c;
+  --color-eneva-teal-medium: #0e6e72;
+  --color-eneva-teal-light: #128287;
+  --color-eneva-brown: #4f200c;
+  --color-eneva-slate: #4f200c;
+  --color-eneva-gray: #F4F4F4;
+  
+  --font-display: "Gustan", "Inter", sans-serif;
+  --font-sans: "Gustan", "Inter", sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+  }
+  
+  body {
+    background-color: #FFFFFF;
+    color: var(--color-eneva-slate);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Custom horizontal scroll bar styling for card trays */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 34, 43, 0.15);
+  border-radius: 99px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 34, 43, 0.3);
+}
