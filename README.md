@@ -91,7 +91,7 @@ O build final será gerado dentro da pasta `/dist`, pronto para ser hospedado gr
 
 ## 👤 Autor
 
-Desenvolvido por **[Seu Nome/E-mail]** com suporte moderno e dedicação aos detalhes. 
+Desenvolvido por Matheus Martendal e Sai do Papel com suporte moderno e dedicação aos detalhes. 
 Sinta-se à vontade para abrir uma Issue ou propor melhorias através de Pull Requests!
 
 ---
